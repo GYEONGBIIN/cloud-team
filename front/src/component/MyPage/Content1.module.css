@@ -274,14 +274,14 @@
 }
 
 .content1_container25{
-    height: 34rem;
+    height: 29rem;
     position: absolute;
     width: 50%;
     background: #ffffff;
     overflow: hidden;
     display: block;
     left:0;
-    bottom:0;
+    bottom:80px;
 }
 
 .content1_container26{
@@ -309,7 +309,18 @@
 }
 
 .content1_container28{
-    height: 34rem;
+    height: 29rem;
+    position: absolute;
+    width: 50%;
+    background: #ffffff;
+    overflow: hidden;
+    display: block;
+    right:0;
+    bottom:80px;
+}
+
+.content1_container29{
+    height: 5rem;
     position: absolute;
     width: 50%;
     background: #ffffff;
@@ -317,7 +328,17 @@
     display: block;
     right:0;
     bottom:0;
-    
+}
+
+.content1_container31{
+    height: 5rem;
+    position: absolute;
+    width: 50%;
+    background: #ffffff;
+    overflow: hidden;
+    display: block;
+    left:0;
+    bottom:0;
 }
 
 .content1_text1{

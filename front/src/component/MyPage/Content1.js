@@ -63,7 +63,7 @@ function Content1(){
                 <div className={classes.content1_container15}>
                 <span className={classes.content1_container16} button id="realty_app_download" type="button">
                         회원탈퇴 {">"}
-                    </span>
+                </span>
                 </div>
             </div>
         </div>
@@ -167,6 +167,16 @@ function Content1(){
                         </div>
                     )
                 })}
+            </div>
+            <div className={classes.content1_container29}>
+                <span className={classes.content1_container30} button id="realty_app_download" type="button">
+                    더 보기 {">"}
+                </span>
+            </div>
+            <div className={classes.content1_container31}>
+                <span className={classes.content1_container32} button id="realty_app_download" type="button">
+                    더 보기 {">"}
+                </span>
             </div>
         </div>
     </section>
