@@ -1,13 +1,14 @@
 import classes from './Content3.module.css';
 
-function Content3 () {
+function Content3 (props) {
     return(
         <section className = {classes.content3_containers}>
-            <h1 className = {classes.content3_title}>눈썹모델구합니다</h1>
+            <h1 className = {classes.content3_title}>
+                <span className={classes.user}>{props.user_type}</span>
+                 <span className={classes.hometype}>{props.hometype}</span>
+            </h1>
             <pre className = {classes.content3_titlebottom}>
-                화장수리 ・ 
-                <time dateTime="2021-07-01">12일 전</time>
-                <span>작성</span>
+                {props.d_day} 전 작성
             </pre>
         </section>
     )
