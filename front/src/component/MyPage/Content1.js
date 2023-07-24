@@ -1,6 +1,40 @@
 import classes from './Content1.module.css'
 import dummy3 from '../../data/MyPageData/Content1.json'
 import dummy4 from '../../data/MyPageData/Content2.json'
+import React, { useState } from 'react';
+import { Button, Modal } from 'react-bootstrap';
+
+function ExampleModal() {
+    const [showModal, setShowModal] = useState(false);
+  
+    const handleClose = () => setShowModal(false);
+    const handleShow = () => setShowModal(true);
+  
+    return (
+      <>
+        <Button className={classes.content1_container40} variant="primary" onClick={handleShow}>
+          Launch demo modal
+        </Button>
+  
+        <Modal show={showModal} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>Modal title</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+           안녕하세요
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+            <Button variant="primary">
+              Save changes
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </>
+    );
+  }
 
 function Content1(){
     return(
@@ -10,9 +44,9 @@ function Content1(){
                 <h1 className={classes.content1_container3}>
                     <div className={classes.content1_container9}>
                         <img className={classes.header_image1} src='/images/cloudlogo.jpg' alt='로고' />
-                        <p1 className={classes.content1_container10}>
+                        <p className={classes.content1_container10}>
                             구름마켓
-                        </p1>
+                        </p>
                         <img className={classes.header_image2} src='/images/cloudlogo.jpg' alt='로고' />
                     </div>
                 <span className={classes.content1_container5}>
@@ -26,9 +60,9 @@ function Content1(){
                 </div>
                 </h1>
                 <div className={classes.content1_container14}>
-                    <p1 className={classes.content1_text1}>
+                    <p className={classes.content1_text1}>
                     기본정보
-                    </p1>
+                    </p>
 
                 </div>
                 <div className={classes.content1_container12}>
@@ -167,16 +201,6 @@ function Content1(){
                         </div>
                     )
                 })}
-            </div>
-            <div className={classes.content1_container29}>
-                <span className={classes.content1_container30} button id="realty_app_download" type="button">
-                    더 보기 {">"}
-                </span>
-            </div>
-            <div className={classes.content1_container31}>
-                <span className={classes.content1_container32} button id="realty_app_download" type="button">
-                    더 보기 {">"}
-                </span>
             </div>
         </div>
     </section>
