@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { RecoilRoot } from 'recoil';
 
 import Header from './component/Header';
+import MainPage from './pages/MainPage';
 import HomePage from './pages/Home';
 import NeighborhoodPage from './pages/Neighborhood';
 import PartTimePage from './pages/PartTime';
@@ -22,6 +23,7 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
+            <Route path = "/mainpage" element = {<MainPage/>}/>
             <Route path = "/" element ={<HomePage />} />
             <Route path = "/estate" element ={<EstatePage />} />
             <Route path = "/estate/:title" element = {<EstateDetail />} />
