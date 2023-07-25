@@ -1,10 +1,10 @@
 import classes from './Content3.module.css'
 
-
-function Content1(){
+function Content3(){
     return(
-        <section className={classes.content1_container1}>
-            <div className={classes.content1_container2}>
+            <section className={classes.content1_container1}>
+            <div className={classes.content1_flexContainer}>
+                <div className={classes.content1_flexItem}>
                 <div className={classes.content_container3}>
                     <span className={classes.content_text1}>고객센터</span>
                 </div>
@@ -14,43 +14,67 @@ function Content1(){
                 <div className={classes.content_container5}>
                     <span className={classes.content_text3}>평일 09:00 ~ 18:00 <br/> 주말/공휴일 휴무</span>
                 </div>
-            <div className={classes.content1_container6}>
+                </div>
+                <div className={classes.content1_blank}></div>
+                <div className={classes.content1_flexItem}>
                 <div className={classes.content_container7}>
-                        <span className={classes.content_text4}>입금계좌</span>
-                    </div>
-                    <div className={classes.content_container8}>
-                        <span className={classes.content_text5}>3333-09-5847103</span>
-                    </div>
-                    <div className={classes.content_container9}>
-                        <span className={classes.content_text6}>국민은행 | 예금주: 장경빈 <br/> E-MAIL:iamsicoura@naver.com</span>
-                    </div>
-            <div className={classes.content1_container10}>
+                    <span className={classes.content_text4}>입금계좌</span>
+                </div>
+                <div className={classes.content_container8}>
+                    <span className={classes.content_text5}>3333-09-5847103</span>
+                </div>
+                <div className={classes.content_container9}>
+                    <span className={classes.content_text6}>카카오뱅크 | 예금주: 장경빈 <br/> E-MAIL : iamsicoura@naver.com</span>
+                </div>
+                </div>
+                <div className={classes.content1_blank}></div>
+                <div className={classes.content1_flexItem}>
                 <div className={classes.content_container11}>
                     <span className={classes.content_text7}>1:1문의</span>
+                    <br/>
                     <span className={classes.content_text8}>궁금하신 사항을 문의해주세요.</span>
-                    <span className={classes.content_img1}>이미지 넣을 곳</span>
                 </div>
-                <div className={classes.content_container12}>
+                <div className={classes.content_container11}>
                     <span className={classes.content_text9}>방문수령 매장안내</span>
+                    <br/>
                     <span className={classes.content_text10}>방문수령 주문 전 꼭 확인해주세요.</span>
-                    <span className={classes.content_img2}>이미지 넣을 곳</span>
                 </div>
-            <div className={classes.content1_container13}>
-            <div className={classes.content_container11}>
+                </div>
+                <div className={classes.content1_blank2}>
+                    <span className={classes.content1_container16} button id="realty_app_download" type="button">
+                        <img className={classes.content1_image1} src='images/main/maindirectionimg.png' alt='사진' />
+                    </span>
+                    <span className={classes.content1_container16} button id="realty_app_download" type="button">
+                        <img className={classes.content1_image2} src='images/main/maindirectionimg.png' alt='사진' />
+                    </span>
+                </div>
+                <div className={classes.content1_blank}></div>
+                <div className={classes.content1_flexItem}>
+                <div className={classes.content_container11}>
                     <span className={classes.content_text11}>배송안내</span>
+                    <br/>
                     <span className={classes.content_text12}>구름마켓 배송시스템 안내</span>
-                    <span className={classes.content_img3}>이미지 넣을 곳</span>
+
                 </div>
-                <div className={classes.content_container14}>
+                <div className={classes.content_container11}>
                     <span className={classes.content_text13}>대량구매 문의</span>
+                    <br/>
                     <span className={classes.content_text14}>문의 폼 입력하러가기</span>
-                    <span className={classes.content_img4}>이미지 넣을 곳</span>
                 </div>
+                </div>
+                <div className={classes.content1_blank2}>
+                    <span className={classes.content1_container16} button id="realty_app_download" type="button">
+                        <img className={classes.content1_image1} src='images/main/maindirectionimg.png' alt='사진' />
+                    </span>
+                    <span className={classes.content1_container16} button id="realty_app_download" type="button">
+                        <img className={classes.content1_image2} src='images/main/maindirectionimg.png' alt='사진' />
+                    </span>
+                </div>
+                <div className={classes.content1_blank}></div>
             </div>
-            </div>    
-            </div>
-            </div>
-        </section>
+            </section>
+
+    
 )
 }
 

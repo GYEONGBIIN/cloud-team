@@ -2,6 +2,8 @@ import classes from './MainPage.module.css';
 import Content1 from '../component/Main/Content1';
 import Content2 from '../component/Main/Content2';
 import Content3 from '../component/Main/Content3';
+import Content4 from '../component/Main/Content4';
+
 
 
 
@@ -12,6 +14,7 @@ function MainPage() {
                 <Content1/>
                 <Content2/>
                 <Content3/>
+                <Content4/>
             </div>     
         </div>
         )

@@ -1,7 +1,7 @@
 import classes from './Content2.module.css'
 
 
-function Content1(){
+function Content2(){
     return(
         <section className={classes.content1_container1}>
             <div className={classes.content1_container2}>
