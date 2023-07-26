@@ -4,9 +4,6 @@ import Content2 from '../component/Main/Content2';
 import Content3 from '../component/Main/Content3';
 import Content4 from '../component/Main/Content4';
 
-
-
-
 function MainPage() {
     return(
         <div className={classes.containers}>

@@ -24,10 +24,10 @@ function Header () {
                 </p>
             <div className = {classes.header3}>
                 <p div className = {classes.text2}>
-                   [EVENT] 구름마켓 회원가입 적립급 3,000,000,000원 지급{">"}
+                   [EVENT] 구름마켓 회원가입 적립급 3,000원 지급{">"}
                 </p>
             <div className = {classes.header4}>
-                <div className = {classes.header_wrap}>
+                <div className = {classes.header_wrap1}>
                     <div className = {classes.header_container1}>
                         <Link to = '/mainpage' className = {classes.header_content1}>
                             <button className={classes.header_menu_selected} >홈</button>
@@ -49,21 +49,21 @@ function Header () {
                             <button className={classes.header_menu} >부동산 직거래</button>
                         </Link>
                         </div>
-                        <div className = {classes.header_container2}>
-                        <Link to = '/mainpage' className = {classes.header_content6}>
-                            <button className={classes.header_menu_selected} ><img className={classes.header_image} src='/images/cloudlogo.jpg' alt='로고' /></button>
-                        </Link> 
-                        </div>
                         <div className = {classes.header_container3}>
-                        <div className = {classes.header_content7}>
-                            <form className={classes.header_form}>
-                                <input className={classes.search_input} type="text" placeholder="물품이나 동네를 검색해보세요" />
-                            </form>
-                        </div>
                         <div className= {classes.header_content8}>
                             {isLoggedIn ? <Button onClick={loginHandler} variant="warning" style={{marginRight : '10px'}}>내정보</Button>  : ''   }
                             <LoginButton  />
                         </div>
+                    </div>
+                </div>
+                <div className={classes.header_wrap2}>
+                    <Link to = '/mainpage' className = {classes.header_content6}>
+                        <button className={classes.header_menu_selected} ><img className={classes.header_image} src='/images/cloudlogo.jpg' alt='로고' /></button>
+                    </Link>
+                    <div className = {classes.header_content7}>
+                            <form className={classes.header_form}>
+                                <input className={classes.search_input} type="text" placeholder="물품이나 동네를 검색해보세요" />
+                            </form>
                     </div>
                 </div>
             </div>

@@ -4,9 +4,9 @@
 }
 
 .content1_container1{
-    width: 100%;
+    width: 80%;
     height: 200px;
-    margin-left:120px;
+    left:200px;
     position: relative;
     border-width: 0;
     border-style: solid;

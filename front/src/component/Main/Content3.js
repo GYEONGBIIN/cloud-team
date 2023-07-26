@@ -70,7 +70,6 @@ function Content3(){
                         <img className={classes.content1_image2} src='images/main/maindirectionimg.png' alt='사진' />
                     </span>
                 </div>
-                <div className={classes.content1_blank}></div>
             </div>
             </section>
 
